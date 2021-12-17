@@ -1,0 +1,47 @@
+body {
+            max-width: 900px;
+            overflow-x: hidden;
+
+            -ms-word-break: break-all;
+            word-break: break-all;
+
+            /* Non standard for webkit */
+            word-break: break-word;
+
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+        }
+
+.intro{
+    margin: 50px;
+    width: 390px;
+}
+
+.action{
+    margin: 50px;
+    width: 390px;
+}
+
+.pageswitch{
+    margin: 50px;
+    width: 390px;
+}
+
+.page{
+    border: 1px solid black;
+    
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    
+    width: 650px;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#babel {
+  text-align: justify;
+}
